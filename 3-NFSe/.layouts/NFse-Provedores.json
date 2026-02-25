@@ -1,0 +1,29 @@
+{
+    "numero": "",
+    "serie": "",
+    "data_emissao": "",
+    "tomador": {
+        "cpf": "",
+        "cnpj": "",
+        "razao_social": "",
+        "endereco": {
+            "logradouro": "",
+            "numero": "",
+            "complemento": "",
+            "bairro": "",
+            "cep": "",
+            "uf": "",
+            "codigo_municipio": ""
+        }
+    },
+    "servico": {
+        "itens": [
+            {
+                "codigo": "",
+                "discriminacao": "",
+                "valor_servicos": ""
+            }
+        ],
+        "ibs_cbs": {}
+    }
+}

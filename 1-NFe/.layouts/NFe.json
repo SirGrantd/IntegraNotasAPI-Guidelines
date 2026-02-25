@@ -1,0 +1,59 @@
+{
+    "natureza_operacao": "",
+    "numero": "",
+    "serie": "",
+    "data_emissao": "",
+    "tipo_operacao": "",
+    "finalidade_emissao": "",
+    "consumidor_final": "",
+    "presenca_comprador": "",
+    "destinatario": {
+        "cnpj": "",
+        "cpf": "",
+        "nome": "",
+        "indicador_inscricao_estadual": "",
+        "inscricao_estadual": "",
+        "inscricao_suframa": "",
+        "inscricao_municipal": "",
+        "email": "",
+        "endereco": ""
+    },
+    "itens": [
+        {
+            "numero_item": "",
+            "codigo_produto": "",
+            "origem": "",
+            "descricao": "",
+            "codigo_ncm": "",
+            "cfop": "",
+            "unidade_comercial": "",
+            "quantidade_comercial": "",
+            "valor_unitario_comercial": "",
+            "valor_bruto": "",
+            "inclui_no_total": "",
+            "imposto": {
+                "pis": {
+                    "situacao_tributaria": ""
+                },
+                "cofins": {
+                    "situacao_tributaria": ""
+                },
+                "ibs_cbs": {
+                    "situacao_tributaria": "",
+                    "classificacao_tributaria": ""
+                }
+            }
+        }
+    ],
+    "frete": {
+        "modalidade_frete": ""
+    },
+    "pagamento": {
+        "formas_pagamento": [
+            {
+                "meio_pagamento": "",
+                "valor": ""
+            }
+        ]
+    }
+}

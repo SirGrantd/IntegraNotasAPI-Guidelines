@@ -1,0 +1,34 @@
+{
+    "numero": "",
+    "serie": "",
+    "data_emissao": "",
+    "tomador": {
+        "cnpj": "",
+        "cpf": "",
+        "razao_social": "",
+        "im": "",
+        "telefone": "",
+        "email": "",
+        "endereco": {
+            "logradouro": "",
+            "numero": "",
+            "complemento": "",
+            "bairro": "",
+            "codigo_municipio": "",
+            "uf": "",
+            "cep": ""
+        }
+    },
+    "servico": {
+        "codigo": "",
+        "discriminacao": "",
+        "valor_servicos": "",
+        "ibs_cbs": {
+            "consumidor_final": "",
+            "codigo_fornecimento": "",
+            "tipo_destinatario": "",
+            "situacao_tributaria": "",
+            "classificacao_tributaria": ""
+        }
+    }
+}
