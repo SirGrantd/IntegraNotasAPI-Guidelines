@@ -14,8 +14,6 @@
     mensagem: text
     xml: text
     pdf: text
-    xml_fix: text
-    pdf_fix: text
 ```
 OBS: Sugestões de status:
 
@@ -24,8 +22,7 @@ OBS: Sugestões de status:
     - Autorizado
     - Rejeitado
     - Cancelado
-    - Autorizado/Corrigida*
-    - Inutilização*
+    - Denegado
     - Documento Inválido*
     - Erro *
     OBS: campos com * são status opcionais varia da necessidade do cliente.
@@ -47,8 +44,6 @@ CREATE TABLE nfe (
     mensagem TEXT,
     xml TEXT,
     pdf TEXT,
-    xml_fix TEXT,
-    pdf_fix TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -68,8 +63,7 @@ CHECK (status IN (
     'Autorizado',
     'Rejeitado',
     'Cancelado',
-    'Autorizado/Corrigida',
-    'Inutilização',
+    'Denegado'
     'Documento Inválido',
     'Erro'
 ));
@@ -91,16 +85,13 @@ CREATE TABLE nfe (
         'Autorizado',
         'Rejeitado',
         'Cancelado',
-        'Autorizado/Corrigida',
-        'Inutilização',
+        'Denegado',
         'Documento Inválido',
         'Erro'
     ) NOT NULL,
     mensagem LONGTEXT,
     xml LONGTEXT,
     pdf LONGTEXT,
-    xml_fix LONGTEXT,
-    pdf_fix LONGTEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     UNIQUE KEY uk_nfe_chave (chave),
