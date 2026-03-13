@@ -16,6 +16,7 @@
     xml: text
     pdf: text
     pdf_provedor: text
+    ... Campos adicionais conforme regra de negocio do sistema
 ```
 
 OBS: Sugestões de status:
